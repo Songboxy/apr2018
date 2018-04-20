@@ -15,3 +15,44 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ p, ol, ul, td {
+  padding: 50px;
+  margin: 20px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+th {
+  padding: 5px;
+}
+
+td {
+  padding: 10px;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
